@@ -1,0 +1,30 @@
+.slidee{
+    background-image: url('hal4.jpg');
+    width: 46.5%;
+    height: auto;
+    margin-top:-70px;
+    animation: ubah 10s linear infinite;
+}
+
+@keyframes ubah{
+    0%{
+        background-image: url('hal1.jpg');
+        margin-top:-70px;
+    }
+    25%{
+        background-image: url('hal1.jpg');
+        margin-top:-70px;
+    }
+    50%{
+        background-image: url('hal1.jpg');
+        margin-top:-70px;
+    }
+    75%{
+        background-image: url('hal2.jpg');
+        margin-top:-70px;
+    }
+    0%{
+        background-image: url('hal2.jpg');
+        margin-top:-70px;
+    }
+}
